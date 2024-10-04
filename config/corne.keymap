@@ -152,11 +152,11 @@
 
         Mouse {
             bindings = <
-&trans  &trans        &trans        &trans             &trans            &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans             &trans            &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &out OUT_USB  &out OUT_BLE  &ext_power EP_OFF  &ext_power EP_ON  &sys_reset    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                      &trans        &bootloader        &trans            &trans        &trans  &trans  &trans  &trans
-                                                                                       &trans
+&mkp MB3  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK          &msc SCROLL_UP    &msc MOVE_LEFT     &mmv MOVE_UP     &trans  &trans  &trans  &trans  &trans  &trans
+&mkp MB4  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &msc SCROLL_DOWN  &msc MOVE_RIGHT    &mmv MOVE_DOWN   &trans  &trans  &trans  &trans  &trans  &trans
+&mkp MB5  &out OUT_USB    &out OUT_BLE    &ext_power EP_OFF  &ext_power EP_ON  &sys_reset         &mmv MOVE_LEFT   &trans  &trans  &trans  &trans  &trans  &trans
+                          &kp C_MUTE      &bootloader        &trans            &trans             &mmv MOVE_RIGHT  &trans  &trans  &trans
+                                                                                                  &mkp LCLK
             >;
         };
 
