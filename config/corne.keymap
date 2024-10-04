@@ -30,6 +30,7 @@
 
             #binding-cells = <0>;
             mods = <(MOD_LGUI|MOD_LALT|MOD_RALT|MOD_RGUI)>;
+            keep-mods = <(MOD_LGUI|MOD_LALT|MOD_RALT|MOD_RGUI)>;
         };
 
         layer_hold: layer_hold {
