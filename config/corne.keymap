@@ -152,11 +152,11 @@
 
         Mouse {
             bindings = <
-&mkp MB3  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK          &msc SCROLL_UP    &msc MOVE_LEFT     &mmv MOVE_UP     &trans  &trans  &trans  &trans  &trans  &trans
-&mkp MB4  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &msc SCROLL_DOWN  &msc MOVE_RIGHT    &mmv MOVE_DOWN   &trans  &trans  &trans  &trans  &trans  &trans
-&mkp MB5  &out OUT_USB    &out OUT_BLE    &ext_power EP_OFF  &ext_power EP_ON  &sys_reset         &mmv MOVE_LEFT   &trans  &trans  &trans  &trans  &trans  &trans
-                          &kp C_MUTE      &bootloader        &trans            &trans             &mmv MOVE_RIGHT  &trans  &trans  &trans
-                                                                                                  &mkp LCLK
+&mkp MB3  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK          &trans            &trans        &mmv MOVE_UP     &trans  &trans  &trans  &trans  &trans  &trans
+&mkp MB4  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &trans            &trans        &mmv MOVE_DOWN   &trans  &trans  &trans  &trans  &trans  &trans
+&mkp MB5  &out OUT_USB    &out OUT_BLE    &ext_power EP_OFF  &ext_power EP_ON  &sys_reset    &mmv MOVE_LEFT   &trans  &trans  &trans  &trans  &trans  &trans
+                          &kp C_MUTE      &bootloader        &trans            &trans        &mmv MOVE_RIGHT  &trans  &trans  &trans
+                                                                                             &mkp LCLK
             >;
         };
 
@@ -165,7 +165,7 @@
 &trans  &trans    &kp UP_ARROW  &trans     &kp PAGE_UP    &kp HOME    &trans  &kp KP_DIVIDE    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp INSERT   &trans
 &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &kp PAGE_DOWN  &kp END     &trans  &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS  &kp ENTER
 &trans  &trans    &trans        &trans     &trans         &trans      &trans  &kp KP_SUBTRACT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT   &to 0
-                  &trans        &trans     &trans         &trans      &trans  &trans           &trans           &trans
+                  &kp C_MUTE    &trans     &trans         &trans      &trans  &trans           &trans           &trans
                                                                       &trans
             >;
         };
