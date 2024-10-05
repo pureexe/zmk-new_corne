@@ -117,7 +117,7 @@
 &kp ESCAPE  &kp N1         &kp N2        &kp N3         &kp N4        &kp N5           &mmv MOVE_UP     &kp N6         &kp N7        &kp N8        &kp N9        &kp N0        &kp DEL
 &trans      &kp LS(EXCL)   &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)    &mmv MOVE_DOWN   &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(PIPE)
 &trans      &kp LS(UNDER)  &kp LS(PLUS)  &kp LS(LBRC)   &kp LS(RBRC)  &kp LS(PIPE)     &mmv MOVE_LEFT   &kp MINUS      &kp EQUAL     &kp LBKT      &kp RBKT      &kp BSLH      &trans
-                           &trans        &trans         &trans        &bootloader      &mmv MOVE_RIGHT  &trans         &trans        &trans
+                           &trans        &trans         &trans        &bootloader      &mmv MOVE_RIGHT  &trans         &mo 3         &trans
                                                                                        &mkp LCLK
             >;
 
@@ -138,7 +138,7 @@
 &kp ESCAPE  &kp F1         &kp F2      &kp F3     &kp F4          &kp F5        &mmv MOVE_UP     &kp F6       &kp F7      &kp F8        &kp F9        &kp F10          &kp F11
 &trans      &kp PAGE_UP    &kp HOME    &mkp RCLK  &mkp LCLK       &kp INSERT    &mmv MOVE_DOWN   &kp LEFT     &kp DOWN    &kp UP_ARROW  &kp RIGHT     &kp PRINTSCREEN  &kp F12
 &trans      &kp PAGE_DOWN  &kp END     &kp CLCK   &kp SCROLLLOCK  &kp DELETE    &mmv MOVE_LEFT   &kp C_PREV   &kp C_NEXT  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE       &kp C_PLAY
-                           &kp C_MUTE  &trans     &trans          &trans        &mmv MOVE_RIGHT  &bootloader  &trans      &trans
+                           &kp C_MUTE  &trans     &mo 3           &trans        &mmv MOVE_RIGHT  &bootloader  &trans      &trans
                                                                                 &mkp LCLK
             >;
 
