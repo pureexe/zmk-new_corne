@@ -41,13 +41,13 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:keyboard-space$$
-  - LEFT WIN
-  - NUMSYM
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
-  - $$mdi:keyboard-space$$
-  - NAV
   - $$mdi:apple-keyboard-option$$
+  - NUMSYM
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - NAV
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   NUMSYM:
   - $$mdi:keyboard-esc$$
