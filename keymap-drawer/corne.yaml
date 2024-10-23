@@ -42,11 +42,11 @@ layers:
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
-  - NUMSYM
+  - {t: '$$mdi:keyboard-tab$$', h: NUMSYM}
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - NAV
+  - {t: BACK, h: NAV}
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   NUMSYM:
@@ -168,7 +168,7 @@ layers:
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: QWERTY, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -294,3 +294,52 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
+  QWERTY:
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - $$mdi:arrow-up-bold$$
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: LEFT WIN}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - $$mdi:arrow-down-bold$$
+  - H
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: RIGHT WIN}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
+  - {t: '''', h: '$$mdi:apple-keyboard-shift$$', s: '"'}
+  - $$mdi:apple-keyboard-control$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:arrow-left-bold$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-tab$$', h: NUMSYM}
+  - $$mdi:keyboard-space$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: BACK, h: NAV}
+  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
