@@ -1,6 +1,6 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
-  Qwerty:
+  QWERTY:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -39,8 +39,8 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: Mouse, h: toggle}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: MOUSE, h: toggle}
   - $$mdi:apple-keyboard-option$$
   - NUMSYM
   - $$mdi:keyboard-space$$
@@ -64,24 +64,24 @@ layers:
   - {t: '0', s: )}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+ !
-  - Sft+ @
-  - 'Sft+ #'
-  - Sft+ $
-  - Sft+ %
+  - Sft+!
+  - Sft+@
+  - Sft+#
+  - Sft+$
+  - Sft+%
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - Sft+ ^
-  - Sft+ &
-  - Sft+ *
-  - Sft+ (
-  - Sft+ )
-  - {t: Sft+ `, s: Sft+ ~}
+  - Sft+^
+  - Sft+&
+  - Sft+*
+  - Sft+(
+  - Sft+)
+  - {t: Sft+`, s: Sft+~}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+ _
-  - Sft+ +
-  - Sft+ {
-  - Sft+ }
-  - Sft+ |
+  - Sft+_
+  - Sft++
+  - Sft+{
+  - Sft+}
+  - Sft+|
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '-', s: _}
   - {t: '=', s: +}
@@ -168,7 +168,7 @@ layers:
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: Numpad, h: toggle}
+  - {t: NUMPAD, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -196,7 +196,7 @@ layers:
   - {type: held}
   - $$mdi:progress-download$$
   - $$mdi:mouse-left-click-outline$$
-  Mouse:
+  MOUSE:
   - '&mkp MB3'
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -245,7 +245,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  Numpad:
+  NUMPAD:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
@@ -284,7 +284,7 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
-  - {t: Qwerty, h: toggle}
+  - {t: QWERTY, h: toggle}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
