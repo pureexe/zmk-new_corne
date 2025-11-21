@@ -92,10 +92,10 @@
         raise_layer {
             display-name = "NAVIGATION";
             bindings = <
-&trans  &kp F3  &kp F6  &kp F9  &kp F12  &bt BT_SEL 0                            &mmv MOVE_UP                     &bt BT_SEL 3    &kp HOME    &kp UP_ARROW  &kp END       &kp PAGE_UP    &kp DEL
-&trans  &kp F2  &kp F5  &kp F8  &kp F11  &bt BT_SEL 1            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bt BT_SEL 4    &kp LEFT    &kp DOWN      &kp RIGHT     &kp PAGE_DOWN  &kp INSERT
-&trans  &kp F1  &kp F4  &kp F7  &kp F10  &bt BT_SEL 2  &trans                    &mmv MOVE_DOWN                   &bt BT_CLR_ALL  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp PIPE       &kp TILDE
-                        &none   &none    &none                                                                    &none           &none       &bootloader
+&kp ESCAPE  &kp F3  &kp F6  &kp F9  &kp F12  &bt BT_SEL 0                            &mmv MOVE_UP                     &bt BT_SEL 3    &kp HOME    &kp UP_ARROW  &kp END       &kp PAGE_UP    &kp DEL
+&trans      &kp F2  &kp F5  &kp F8  &kp F11  &bt BT_SEL 1            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bt BT_SEL 4    &kp LEFT    &kp DOWN      &kp RIGHT     &kp PAGE_DOWN  &kp INSERT
+&trans      &kp F1  &kp F4  &kp F7  &kp F10  &bt BT_SEL 2  &trans                    &mmv MOVE_DOWN                   &bt BT_CLR_ALL  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp PIPE       &kp TILDE
+                            &none   &none    &none                                                                    &none           &none       &bootloader
             >;
 
             sensor-bindings = <&scroll_encoder>;
