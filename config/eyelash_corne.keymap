@@ -68,10 +68,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E         &kp R  &kp T                             &kp UP                &kp Y      &kp U  &kp I          &kp O    &kp P     &kp BSPC
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J  &kp K          &kp L    &kp SEMI  &kp SQT
-&kp LCTRL       &kp Z  &kp X  &kp C         &kp V  &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                              &kp LEFT_ALT  &mo 1  &kp SPACE                                               &kp ENTER  &mo 2  &kp RIGHT_GUI
+&kp ESC                          &kp Q  &kp W  &kp E         &kp R      &kp T                             &kp UP                &kp Y      &kp U            &kp I          &kp O    &kp P     &kp LEFT_BRACKET
+&mt LEFT_SHIFT NON_US_BACKSLASH  &kp A  &kp S  &kp D         &kp F      &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J            &kp K          &kp L    &kp SEMI  &mt RIGHT_SHIFT SQT
+&kp LCTRL                        &kp Z  &kp X  &kp C         &kp V      &kp B      &kp SPACE              &kp DOWN              &kp N      &kp M            &kp COMMA      &kp DOT  &kp FSLH  &mt RCTRL RIGHT_BRACKET
+                                               &kp LEFT_ALT  &lt 1 TAB  &kp SPACE                                               &kp ENTER  &lt 2 BACKSPACE  &kp RIGHT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -80,10 +80,10 @@
         lower_layer {
             display-name = "SYMBOL";
             bindings = <
-&kp GRAVE   &kp N1             &kp N2        &kp N3       &kp N4          &kp N5                                         &mmv MOVE_UP                     &kp N6            &kp N7             &kp N8        &kp N9                &kp N0                 &kp MINUS
-&kp TILDE   &kp EXCLAMATION    &kp AT        &kp HASH     &kp DOLLAR      &kp PERCENT                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp CARET         &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
-&sys_reset  &ext_power EP_TOG  &out OUT_TOG  &none        &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL     &kp PLUS              &kp NON_US_BACKSLASH   &kp PIPE
-                                             &bootloader  &none           &none                                                                           &none             &none              &none
+&kp GRAVE   &kp N1             &kp N2        &kp N3       &kp N4      &kp N5                                     &mmv MOVE_UP                     &kp N6     &kp N7         &kp N8        &kp N9                &kp N0                 &kp MINUS
+&kp TILDE   &kp EXCLAMATION    &kp AT        &kp HASH     &kp DOLLAR  &kp PERCENT                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
+&sys_reset  &ext_power EP_TOG  &out OUT_TOG  &none        &none       &none        &kp C_MUTE                    &mmv MOVE_DOWN                   &none      &none          &kp EQUAL     &kp PLUS              &none                  &none
+                                             &bootloader  &none       &none                                                                       &none      &kp DELETE     &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -93,8 +93,8 @@
             display-name = "NAVIGATION";
             bindings = <
 &kp ESCAPE  &kp F3  &kp F6  &kp F9  &kp F12  &bt BT_SEL 0                            &mmv MOVE_UP                     &bt BT_SEL 3    &kp HOME    &kp UP_ARROW  &kp END       &kp PAGE_UP    &kp DEL
-&trans      &kp F2  &kp F5  &kp F8  &kp F11  &bt BT_SEL 1            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bt BT_SEL 4    &kp LEFT    &kp DOWN      &kp RIGHT     &kp PAGE_DOWN  &kp INSERT
-&trans      &kp F1  &kp F4  &kp F7  &kp F10  &bt BT_SEL 2  &trans                    &mmv MOVE_DOWN                   &bt BT_CLR_ALL  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp PIPE       &kp TILDE
+&none       &kp F2  &kp F5  &kp F8  &kp F11  &bt BT_SEL 1            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bt BT_SEL 4    &kp LEFT    &kp DOWN      &kp RIGHT     &kp PAGE_DOWN  &kp INSERT
+&none       &kp F1  &kp F4  &kp F7  &kp F10  &bt BT_SEL 2  &trans                    &mmv MOVE_DOWN                   &bt BT_CLR_ALL  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &none          &none
                             &none   &none    &none                                                                    &none           &none       &bootloader
             >;
 
