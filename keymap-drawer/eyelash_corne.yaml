@@ -46,8 +46,8 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-tab$$', h: SYMBOL}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', h: NAVIGATION}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: RETURN, h: NAVIGATION}
   - RIGHT GUI
   SYMBOL:
   - {t: '`', s: '~'}
@@ -95,8 +95,8 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   NAVIGATION:
   - $$mdi:keyboard-esc$$
