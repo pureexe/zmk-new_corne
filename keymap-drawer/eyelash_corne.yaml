@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:keyboard-tab$$'}
+  - {t: '=', h: '$$mdi:keyboard-tab$$', s: +}
   - Q
   - W
   - E
@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: ']', h: '$$mdi:apple-keyboard-control$$', s: '}'}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-tab$$', h: SYMBOL}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
